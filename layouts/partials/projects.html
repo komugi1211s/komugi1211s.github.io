@@ -1,0 +1,6 @@
+<h3>Projects</h3>
+<ul id="posts">
+{{- range where (where site.Pages "Section" "projects") "IsPage" true }}
+    {{ .Render "li" }}
+{{- end }}
+</ul>
