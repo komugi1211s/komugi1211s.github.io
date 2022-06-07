@@ -1,45 +1,45 @@
 baseURL: 'http://komugi1211s.github.io/'
 languageCode: 'ja-jp'
-title: 'fuzzy personal website'
-theme: 'papermod'
+title: "Fuzzy person's blog"
+theme: 'cactus'
 
 menu:
   main:
     - identifier: "about"
       name: "About"
-      url: "/about/"
-      weight: = 1
-
-    - identifier: "projects"
-      name: "Projects"
-      url: "/projects/"
-      weight: = 2
+      url: "/about"
+      weight: 1
 
     - identifier: "posts"
       name: "Posts"
-      url: "/posts/"
-      weight: = 2
+      url: "/posts"
+      weight: 2
 
-    - identifier: "toys"
-      name: "Toys"
-      url: "/toys/"
-      weight: = 3
+    - identifier: "projects"
+      name: "Projects"
+      url: "/projects"
+      weight: 2
 
 params:
+  css:
+    - css/portfolio.css
+
   author: "fuzzyperson (komugi1211s)"
-  description: "desc"
+  description: >
+    Hello! I am **Soy Fuzzy**, or fuzzyperson. I am a self taught programmer located in Japan.
+
+    for more info about me (cv, contact), please visit [About](/about).
+
+  mainSections: "posts"
+  mainSectionTitle: "Posts"
   copyright: "© fuzzyperson 2020 - present"
-  defaultTheme: auto
-  ShowCodeCopyButtons: true
-  ShowToc: true
 
-  homeInfoParams:
-    Title: "Fuzzy page"
-    Content: "A place to keep rubbish thoughts. self-taught programmer mainly focusing on C/C++ gamedev. interested in memory management, scripting."
-
-  socialIcons:
+  social:
     - name: "github"
-      url:  "https://github.com/komugi1211s"
+      link: "https://github.com/komugi1211s"
+    - name: "email"
+      link: "seyaroka8+github ATMARK gmail DOT com"
+
 
 
 markup:

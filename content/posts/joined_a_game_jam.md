@@ -1,5 +1,6 @@
 ---
-title: "`Black and White Jam` というゲームジャムに参加した話 (Postmortem of `black and white jam` game jam)"
+title: "`Black and White Jam` というゲームジャムに参加した話 "
+subtitle: Postmortem of `black and white jam` game jam
 date: 2022-04-14T11:36:07+09:00
 draft: false
 ---
@@ -27,7 +28,7 @@ note: some sentences produces pronouns such as "he" or "him". the original artic
 [^GameJam]: ゲーム開発を短時間で行う催し。主催者が定めたテーマに沿ったゲームを一定の期間（大抵は二日から一週間）で完成させる。
 
 ## 事の始まり
-主なモチベーションは自らのポートフォリオに完成作品を追加したかったから。ゲームジャムに参加しようという意欲そのものは一年ほど前からあったものの、過去に二度参加を試みてどちらも完成させられず頓挫した経験があり、そのせいか消極的になっていた。
+主なモチベーションは自らのポートフォリオにゲームを追加したかったから。ゲームジャムに参加しようという意欲そのものは一年ほど前からあったものの、過去に二度参加を試みてどちらも完成させられず頓挫した経験があり、そのせいか消極的になっていた。
 
 ある日、[itch.io](https://itch.io/)[^ItchIo]を眺めていると今回のジャムが目に止まり、そのまま何気なく勢いで参加した。自分は開催から３日遅れの参加だった（開催は4月1日、参加したのが4月4日）
 

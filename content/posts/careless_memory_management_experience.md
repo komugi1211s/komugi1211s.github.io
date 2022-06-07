@@ -1,8 +1,10 @@
 ---
 title: "メモリアロケータ用の領域を全てmemsetしたらプロセスがOOMを起こした時のメモ"
+subtitle: experience of investigating OOM when calling memset to allocated memory
 date: 2020-10-02T12:06:30+09:00
 draft: false
 ---
+
 最近自分のプロジェクトの為にメモリアロケーターを書いた時に躓いた問題に関するメモ。Cを扱う人々にとっては常識のようだが、自身の学びの一環として書き残しておく。
 <!--more-->
 

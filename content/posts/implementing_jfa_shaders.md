@@ -1,6 +1,7 @@
 ---
-title: "Jump Flooding Algorithmを実装する (Implementing Jump Flooding Algorithm)"
+title: "Jump Flooding AlgorithmをGLSLで実装する"
 date: 2021-12-02T13:44:02+09:00
+subtitle: Implementing Jump Flooding Algorithm in GLSL
 description: "Jump flooding algorithmというSDF生成アルゴリズムについて"
 draft: true
 ---

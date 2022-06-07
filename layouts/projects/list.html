@@ -1,0 +1,44 @@
+{{ define "showcase-item" }}
+  <div class="showcase-item">
+    {{ $image := .Resources.GetMatch "banner.png" }}
+    {{ with $image }}
+        <img class="project-image" src="{{ .RelPermalink }}" >
+    {{ else }}
+        <img class="project-image" src="https://via.placeholder.com/300x200.png?text=No+Image+Projects+:(" >
+    {{ end }}
+
+    <a class="project-title" href="{{ .Permalink }}">
+        {{ if .Title }}
+            {{ .Title }}
+        {{ else }}
+            Untitled Projects
+        {{ end }}
+    </a>
+    <div class="meta">
+      <time datetime="{{ time .Date }}" itemprop="datePublished">{{ .Date.Format (.Site.Params.dateFormat | default "2006-01-02") }}</time>
+      <span>used: {{ .Params.techstack }}</span>
+      <p>{{ .Params.description }}</p>
+    </div>
+  </div>
+{{ end }}
+
+
+{{ define "main" }}
+<div id="archive">
+
+  <h1> Projects </h1>
+  <div class="showcase-list">
+    {{ range (where .Pages ".Params.kind" "projects") }}
+      {{ template "showcase-item" . }}
+    {{ end }}
+  </div>
+
+  <h1> Toys / Gamejams </h1>
+  <div class="showcase-list">
+    {{ range where .Pages ".Params.kind" "toys" }}
+      {{ template "showcase-item" . }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}
+
