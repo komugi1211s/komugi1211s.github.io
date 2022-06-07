@@ -9,7 +9,7 @@ Hello! I am **Soy Fuzzy**.
 
 self taught game programmer located in Japan. IT generalist by trade.
 
-loves to tinker around with entity management. plays Table Top RPG at free time.  
+loves to tinker around with whatever is interesting. plays Table Top RPG at free time.  
 tendency to include minimalistic UI into a game. obsessed with aligning variables name.
 
 ## Skills / Experience
