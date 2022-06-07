@@ -28,7 +28,7 @@ params:
   description: >
     Hello! I am **Soy Fuzzy**, or fuzzyperson. I am a self taught programmer located in Japan.
 
-    for more info about me (cv, contact), please visit [About](/about).
+    for more info about me, please visit [About](/about).
 
   mainSections: "posts"
   mainSectionTitle: "Posts"
@@ -37,10 +37,6 @@ params:
   social:
     - name: "github"
       link: "https://github.com/komugi1211s"
-    - name: "email"
-      link: "seyaroka8+github ATMARK gmail DOT com"
-
-
 
 markup:
   goldmark:
