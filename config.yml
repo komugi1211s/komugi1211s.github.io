@@ -1,4 +1,4 @@
-baseURL: 'http://komugi1211s.github.io/'
+baseURL: 'https://komugi1211s.github.io/'
 languageCode: 'ja-jp'
 title: "Fuzzy person's blog"
 theme: 'cactus'
