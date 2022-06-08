@@ -3,6 +3,8 @@ languageCode: 'ja-jp'
 title: "Fuzzy person's blog"
 theme: 'cactus'
 
+googleAnalytics: "G-GEF7XTFJG3"
+
 menu:
   main:
     - identifier: "about"
