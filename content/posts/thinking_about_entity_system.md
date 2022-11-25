@@ -1,7 +1,7 @@
 ---
-title: "ゲームのエンティティを扱う上でのアプローチについて考える (common info about entity system)"
+title: "ゲームのエンティティを扱う上でのアプローチについて"
 date: 2022-04-17T12:06:30+09:00
-description: "エンティティの扱いについて色々試行錯誤する記事。"
+subtitle: Approaching Entity Management
 draft: true
 ---
 
@@ -95,7 +95,7 @@ std::vector<Entity *> entities;
 entities.push_back(new Cat());
 entities.push_back(new Dog());
 
-for (auto &e: entities) {
+for (auto e: entities) { // can copy: it's just a pointer.
     if (e) {
         e->update(1.0f/60.0f);
     }
